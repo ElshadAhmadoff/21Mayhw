@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+    <title>TASK</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">TASK</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./tasks.html">ADDED</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section>
+        <div class="container">
+            <div class="row mt-5">
+                <h1 class="mb-5">Please,Add the your tasks</h1>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" placeholder="Write your task here... and click the button">
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-success d-block w-100 addd-btn">ADD TASK!</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-danger d-block w-100 dell-btn">DELETE ALL!</button>
+                </div>
+                <div class="col-md-8 mt-5 ullis">
+                    <ul class="list-group">
+    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>
